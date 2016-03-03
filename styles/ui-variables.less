@@ -1,41 +1,41 @@
 
+//buttons color
+@btn-default-bg-color:      lighten(@toolbar-background-color,4%);
+
+// dropdowns color
+@dropdown-default-bg-color:#f07746;
+
+@accent-primary:            #f07746;
+@accent-primary-dark:       darken(#f07746, 1%);
+
+@border-secondary-bg:   lighten(@background-secondary, 10%);
+
+// @border-tertiary-bg:    lighten(@background-tertiary, 10%);
+// @border-color-divider:  @border-secondary-bg;
+
+//input bg like search in main window
+// @input-bg:              darken(@background-secondary,20%);
+// @input-border:          @border-color-divider;
+
+//main list background
+// @list-bg:               #FF1E00;
+// @list-border:           #383838;
+
+// @list-selected-color:   @text-color-inverse;
+
+@toolbar-background-color: #41403b;
+
+
+.sheet-toolbar .btn-toolbar img.content-mask {
+    background-color: rgb(246, 246, 246);
+}
+
+.layout-mode-popout .sheet-toolbar {
+display: none;
+}
+
 .sheet-toolbar-container {
-  background-image: -webkit-linear-gradient(top, #41403b, #41403b);
-  box-shadow: none;
-  color: #434648;
-}
-.btn {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(66, 66, 61)), to(#353530));
-}
-.btn img.content-mask {
-  background-color: #FFFFFF;
-}
-.list-container .list-item.focused {
-  background: #f07746;
-}
-.list-container .list-item.focused .list-column {
-  border-bottom: 1px solid #f07746;
-}
-#account-switcher .item.selected,
-#account-sidebar .item.selected {
-  color: #f07746;
-}
-#account-switcher .item.selected img.content-mask,
-#account-sidebar .item.selected img.content-mask {
-  background-color: #f07746;
-}
-.sheet-toolbar .item-back img.content-mask {
-  background-color: #F1F1F1;
-}
-.sheet-toolbar .item-back .item-back-title {
-  color: #E6E6E6;
-}
-.preferences-wrap .preferences-sidebar .item.active:not(.has-subitems) .name {
-  color: #f07746;
-}
-.preferences-wrap .preferences-sidebar .item.active:not(.has-subitems) {
-  border-right: 3px solid #f07746;
-}
-.mode-toggle.mode-false .content-mask {
-    background-color: #f07746;
+  background-image: -webkit-linear-gradient(top,@toolbar-background-color, darken(@toolbar-background-color,5%));
+    box-shadow: none;
+
 }

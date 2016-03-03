@@ -1,6 +1,6 @@
 ##This is a very early version of Ubuntu theme for Nylas N1.
 ![img]
-(https://raw.githubusercontent.com/ahmedlhanafy/Ubuntu-Ui-Theme-for-Nylas-N1/master/Screenshot.png)
+(https://cloud.githubusercontent.com/assets/7052827/13513639/232fbab0-e1ab-11e5-9c92-f6159fc8e3b4.png)
 
 ## Installation:
 * Download the zip folder and extract it.
