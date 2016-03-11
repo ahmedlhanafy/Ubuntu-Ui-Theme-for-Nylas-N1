@@ -10,24 +10,12 @@
 
 @border-secondary-bg:   lighten(@background-secondary, 10%);
 
-// @border-tertiary-bg:    lighten(@background-tertiary, 10%);
-// @border-color-divider:  @border-secondary-bg;
-
-//input bg like search in main window
-// @input-bg:              darken(@background-secondary,20%);
-// @input-border:          @border-color-divider;
-
-//main list background
-// @list-bg:               #FF1E00;
-// @list-border:           #383838;
-
-// @list-selected-color:   @text-color-inverse;
 
 @toolbar-background-color: #41403b;
-
+@light:  rgb(246, 246, 246);
 
 .sheet-toolbar .btn-toolbar img.content-mask {
-    background-color: rgb(246, 246, 246);
+    background-color: @light;
 }
 
 .layout-mode-popout .sheet-toolbar {
@@ -37,5 +25,20 @@ display: none;
 .sheet-toolbar-container {
   background-image: -webkit-linear-gradient(top,@toolbar-background-color, darken(@toolbar-background-color,5%));
     box-shadow: none;
+}
 
+.sheet-toolbar .item-back img.content-mask{
+  background-color: @light;
+}
+
+.sheet-toolbar .item-back .item-back-title{
+  color: @light;
+}
+
+.btn-icon img.content-mask {
+    background-color:@light;
+}
+
+.btn-icon img.content-mask:hover {
+    background-color:@accent-primary;
 }
